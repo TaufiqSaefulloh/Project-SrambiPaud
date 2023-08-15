@@ -1,0 +1,263 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* ------------------- */
+/* Artikel */
+/* ------------------- */
+.artikel {
+    background-color: #35A29F;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+.post-artikel{
+    float: left;
+    margin-right: 70px;
+}
+.main-artikel {
+    max-width: 800px;
+}
+
+.article-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    border: 1px solid #900C3F;
+}
+
+.article-card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.article-card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.article-card p {
+    color: #666;
+    margin-bottom: 1rem;
+}
+
+.article-card a {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.article-card a:hover {
+    background-color: #555;
+}
+
+/* ---------------------------- */
+/* Berita */
+/* ---------------------------- */
+.berita {
+    background-color: #35A29F;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    overflow: hidden;
+}
+
+.main-berita {
+    max-width: 800px;
+    padding: 2rem;
+}
+
+.berita-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    border: 1px solid #900C3F;
+}
+
+.berita-card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.berita-card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.berita-card p {
+    color: #666;
+    margin-bottom: 1rem;
+}
+
+.berita-card a {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.berita-card a:hover {
+    background-color: #555;
+}
+
+.post-berita{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+} 
+.post-berita header h1 {
+    color: #ffffff;
+    text-align: center;
+}
+.post-berita header{
+    background: #0B666A;
+    width: 100%;
+}
+.post-berita{
+    border: 2px solid #0B666A;
+}
+
+/* ------------------------- */
+/* Responsive */
+/* ------------------------- */
+@media (max-width: 1024px) {
+    .post-artikel{
+        float: left;
+        width: 100%;
+        margin: 0;
+        padding: 10px;
+    }
+    .post-berita{
+        margin: 0;
+        float: left;
+        width: 100%;
+    } 
+    .post-berita header{
+        margin: 20px;
+    }
+    .post-berita{
+        border: none;
+    }
+    .sosial-icon .container{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .sosial-icon .container .sosiall-1 a,
+    .sosial-icon .container .sosiall-2 a{
+    font-size: 20px;
+
+    }
+    .sosial-icon .container .header {
+    flex-basis: 0;
+    }
+    .sosial-icon .container .header h2{
+    font-size: 30px;
+    }
+
+}
+
+/* -------------------------- */
+/* sosial */
+/* -------------------------- */
+.sosial-icon .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #000000;
+}
+.sosial-icon{ 
+    background: #fff;
+    transition: transform 0.3s ease-in-out;
+    clear: both;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.sosial-icon .header h2{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 50px;
+}
+.sosial-icon .header{
+    flex-basis: 600px;
+}
+
+.sosial-icon .sosiall-1 a,
+.sosial-icon .sosiall-2 a{
+    font-size: 30px;
+
+}
+.sosial-icon .sosiall-1 p,
+.sosial-icon .sosiall-2 p{
+    text-align: center;
+}
+
+.sosial-icon .sosiall .wa:hover p,
+.sosial-icon .sosiall .yt:hover p,
+.sosial-icon .sosiall .fb:hover p,
+.sosial-icon .sosiall .insta:hover p{
+    color: #64CCC5;
+}
+.sosial-icon .sosiall .wa:hover a,
+.sosial-icon .sosiall .yt:hover a,
+.sosial-icon .sosiall .fb:hover a,
+.sosial-icon .sosiall .insta:hover a{
+    color: #64CCC5;
+}
+.sosial-icon .sosiall-1,
+.sosial-icon .sosiall-2{
+    padding: 15px;
+}
+
+.sosial-icon .sosiall .wa,
+.sosial-icon .sosiall .fb,
+.sosial-icon .sosiall .yt,
+.sosial-icon .sosiall .insta{
+    padding: 20px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+/* Tombol back beranda */
+#tombol-kembali {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #47b2e4;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-left: 100px;
+  }
+  
+#tombol-kembali:hover {
+    background-color: #0056b3;
+  }
+
+@media (max-width: 1024px){
+    #tombol-kembali{
+        margin-bottom: 10px;
+        margin-left: 0;
+    }
+}
+  
+.detail-img{
+    width: 50%;
+    margin: 10px auto;
+}
