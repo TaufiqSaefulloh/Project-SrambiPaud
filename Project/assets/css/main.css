@@ -255,9 +255,28 @@
         margin-bottom: 10px;
         margin-left: 0;
     }
+    #visi-misi .container .vismis{
+        display: grid;
+        grid-template-columns: repeat(1fr);
+    }
 }
   
 .detail-img{
     width: 50%;
     margin: 10px auto;
+}
+
+#visi-misi .vismis{
+    text-align: center;
+    display: flex;
+    justify-content: space-between; 
+}
+#visi-misi .vismis p{
+    margin: 20px;
+}
+#visi-misi .vismis .visi{
+    flex-basis: 50%;
+}
+#visi-misi .vismis .misi{
+    flex-basis: 50%;
 }
