@@ -259,6 +259,14 @@
         display: grid;
         grid-template-columns: repeat(1fr);
     }
+    #hero .elemen {
+        display: grid;
+        grid-template-columns: repeat(3fr);
+        gap: 20px;
+    }
+    #hero .elemen button{
+        margin: 0;
+    }
 }
   
 .detail-img{
@@ -279,4 +287,15 @@
 }
 #visi-misi .vismis .misi{
     flex-basis: 50%;
+}
+
+#hero .elemen{
+    display: flex;
+    margin-bottom: 18px;
+    font-weight: 700;
+    margin-left:48%;
+    gap: 10px;
+}
+#hero .elemen button{
+    font-weight: 700;
 }
