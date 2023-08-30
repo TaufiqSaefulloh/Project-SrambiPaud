@@ -7,52 +7,8 @@
 /* ------------------- */
 /* Artikel */
 /* ------------------- */
-#artikel{
-  padding: 15px;
-}
-.artikel-card {
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-    padding: 1rem;
-    margin-bottom: 1.5rem;
-    border: 1px solid #900C3F;
-    display: flex;
-    flex-direction: row;
-}
 
-#artikel img {
-  max-width: 100%;
-  width: 600px;
-  border-radius: 8px;
-  margin-bottom: 1rem;
-  height: 350px;
-}
-
-.artikel-card h2 {
-    font-size: 1.5rem;
-    margin-bottom: 0.5rem;
-}
-
-.artikel-card span {
-    color: #666;
-    margin-bottom: 1rem;
-    text-indent: 15px;
-}
-@media screen and (max-width :1021px) {
-  .artikel-card span {
-    color: #666;
-    margin-bottom: 1rem;
-    text-indent: 15px;
-    display: inline-block;
-    width: 400px;
-    white-space: nowrap;
-    overflow: hidden !important;
-    text-overflow: ellipsis;
-}
-}
-
-.artikel-card a {
+#artikel a {
     display: inline-block;
     background-color: #333;
     color: #fff;
@@ -60,12 +16,12 @@
     text-decoration: none;
     border-radius: 4px;
     transition: background-color 0.3s;
-    margin-top: 10px;
     float: right;
+    margin: 15px;
     overflow: hidden;
 }
 
-.artikel-card a:hover {
+#artikel a:hover {
     background-color: #555;
 }
 /* ------------------------- */
