@@ -10,7 +10,7 @@
 
 #artikel a {
     display: inline-block;
-    background-color: #333;
+    background-color: #F94C10;
     color: #fff;
     padding: 0.5rem 1rem;
     text-decoration: none;
@@ -22,7 +22,7 @@
 }
 
 #artikel a:hover {
-    background-color: #555;
+    background-color: #f94a10ad;
 }
 /* ------------------------- */
 /* Responsive */
