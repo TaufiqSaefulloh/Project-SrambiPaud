@@ -395,8 +395,8 @@ color: #F94C10;
     width: 300px;
     height: 400px;
     margin: 1em;
-    background: #ffffff;
-    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    background: #cdcbcb;
+    box-shadow: 0 15px 35px #f94a104c;
     border-radius: 15px;
     display: flex;
     justify-content: center;
@@ -404,7 +404,7 @@ color: #F94C10;
     flex-direction: column;
     border: solid 2px transparent;
     background-clip: padding-box;
-    box-shadow: 0px 10px 10px rgba(46, 54, 68, 0.03);
+    box-shadow: 0px 10px 10px #f94a104c;
   }
 .team .card .content {
     position: relative;
@@ -421,7 +421,7 @@ color: #F94C10;
     height: 150px;
     border-radius: 50%;
     overflow: hidden;
-    border: 10px solid rgba(0, 0, 0, 0.25);
+    border: 10px solid #f94a10b2;
   }
 .team .card .content .img img {
     position: absolute;
@@ -581,9 +581,9 @@ color: #F94C10;
   top: 0;
   right: 0;
   left: 0;
-  padding: 20px 0;
+  padding: 15px 0;
   z-index: 9999;
-  background-color: #071952;
+  background-color: #900C3F;
 }
 
 .page-header nav {
@@ -599,7 +599,7 @@ color: #F94C10;
   font-weight: bold;
   padding: 14px 20px;
   border-radius: 10px;
-  background: #08a6df;
+  background: #fff;
   transition: background 0.3s;
 }
 .page-header button a{
@@ -611,8 +611,8 @@ color: #F94C10;
   fill: currentColor;
 }
 
-.page-header button:hover {
-  background: #0ab8f6;
+.page-header button a:hover {
+  color: #F94C10;
 }
 
 .page-header.is-sticky {
