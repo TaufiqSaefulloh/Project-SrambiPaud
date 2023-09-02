@@ -289,13 +289,13 @@ color: #F94C10;
     color: #777777;
   }
   .social-icons a:hover {
-    color: #000;
+    color: #F94C10;
   }
   .social-icons a i {
     box-shadow: rgb(0 0 0 / 8%) 0px 4px 12px;
     padding: 0.4rem 1rem 0.4rem 1rem;
     border-radius: 3px;
-    color: #82074a;
+    color: #F94C10;
     font-size: 16px;
     margin-right: 12px;
   }
@@ -325,7 +325,7 @@ color: #F94C10;
     color: #777777;
   }
   .use-links li a:hover {
-    color: #000;
+    color: #F94C10;
   }
   .address h2 {
     padding-bottom: 15px;
@@ -344,7 +344,7 @@ color: #F94C10;
   .address-links li i {
     font-size: 16px;
     padding: 0.4rem 1rem 0.4rem 1rem;
-    color: #82074a;
+    color: #F94C10;
   }
   .address-links li i:nth-child(1) {
     padding-top: 9px;
@@ -656,11 +656,11 @@ color: #F94C10;
 /* akreditas */
 /* --------------------------------- */
 section.sunset .button {
-  background: linear-gradient(25deg, #35A29F, #071952);
+  background: linear-gradient(25deg, #F94C10, #900C3F);
 }
 section.sunset .button.inverse {
   -webkit-text-fill-color: transparent;
-  border-image-source: linear-gradient(25deg, #35A29F, #071952);
+  border-image-source: linear-gradient(25deg, #F94C10, #900C3F);
 }
 /* .sunset .container{
   display: flex;
