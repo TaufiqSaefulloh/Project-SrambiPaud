@@ -292,7 +292,7 @@ color: #F94C10;
     color: #F94C10;
   }
   .social-icons a i {
-    box-shadow: rgb(0 0 0 / 8%) 0px 4px 12px;
+    /* box-shadow: rgb(0 0 0 / 8%) 0px 4px 12px; */
     padding: 0.4rem 1rem 0.4rem 1rem;
     border-radius: 3px;
     color: #F94C10;
